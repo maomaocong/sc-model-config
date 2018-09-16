@@ -20,8 +20,8 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/model_order?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
     username: root
     validationQuery: select 'x'
-rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
